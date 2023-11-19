@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name FA238V)(type KiCad)(uri ${KIPRJMOD}/FA238V.pretty)(options "")(descr ""))
+  (lib (name TypeC)(type KiCad)(uri ${KIPRJMOD}/TypeC.pretty)(options "")(descr ""))
+  (lib (name PMOD)(type KiCad)(uri ${KIPRJMOD}/PMOD.pretty)(options "")(descr ""))
+  (lib (name DPDT_SMD)(type KiCad)(uri ${KIPRJMOD}/DPDT_SMD.pretty)(options "")(descr ""))
+)
