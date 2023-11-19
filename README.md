@@ -12,12 +12,13 @@ USB SPI Converter with MCP2210
  *  MCP2210はHID標準デバイスとして認識されるため、ドライバは不要です
  *  MCP2210の仕様についてはデータシートを参照してください
  *  9つのGPIO及び1つのSPIポートが利用可能です
- *  転送レートは1.5k~ 12Mbpsまで対応しています
+ *  SPIクロック速度は1.5k~ 12Mbpsまで対応しています
  *  全SPIモード(Mode 0, 1, 2, 3)に対応しています
  *  64byteの送受信バッファを搭載しています
  *  1回の送受信は最大65535byteまで対応しています
+ *  HIDデバイスとして認識される仕様上、最大転送レートは64kByte/sec程度となります  
  *  COM-LEDはIO3に接続されています
- *  SPI Flashパターンを介してメモリに書き込む場合はIO0とIO2をhighに設定してください  
+ *  基板上のSPI Flashパターンを介して書き込む場合はIO0とIO2をhighに設定してください  
  *  USB5V電源入力側に350mA定格のリセッタブルヒューズを搭載しています  
  *  給電可能な電流は3.3Vラインで最大150mA前後、5Vラインで最大350mAです  
 
@@ -25,14 +26,17 @@ USB SPI Converter with MCP2210
  * MCP2210 Utility  
  [Microchip社MCP2210 Utility][2]からGUIでSPI通信をすることが可能です
  * Web USB SPI  
- Web USB HID APIを用いたツールでブラウザから操作するアプリです。オフラインでも動作可能です。
-
-
-
-
+ Web USB HID APIを用いた[ツールでブラウザから操作するアプリ][3]です。オフラインでも動作可能です。
 
 ## ピンアサイン
+<img src="/img/img3.jpeg" width="360">
 
+## 外観
+ * 基板サイズ45mm x 25mm(突起部除く)
+ * 固定穴M3x2、幅19mm 
+<img src="/img/img1.jpg" width="360">
+<img src="/img/img2.jpeg" width="300">
 
 [1]: https://www.microchip.com/en-us/product/MCP2210
 [2]: https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2210Utility-v1.2.3-windows-installer.zip
+[3]: https://meerstern.github.io/web_usb_spi.html
