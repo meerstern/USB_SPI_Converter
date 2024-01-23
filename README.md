@@ -27,6 +27,8 @@ USB SPI Converter with MCP2210
  [Microchip社MCP2210 Utility][2]からGUIでSPI通信をすることが可能です
  * Web USB SPI  
  Web USB HID APIを用いた[ツールでブラウザから操作するアプリ][3]です。オフラインでも動作可能です。
+ * Web USB SPI Flash Tool  
+ Web USB HID APIを用いた[ツールでブラウザからSPI Flashの読込/書込するアプリ][4]です。オフラインでも動作可能です。
 
 ## ピンアサイン
 <img src="/img/img3.jpeg" width="360">
@@ -40,3 +42,4 @@ USB SPI Converter with MCP2210
 [1]: https://www.microchip.com/en-us/product/MCP2210
 [2]: https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2210Utility-v1.2.3-windows-installer.zip
 [3]: https://meerstern.github.io/web_usb_spi.html
+[4]: https://meerstern.github.io/web_spi_flash_tool.html
