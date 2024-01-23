@@ -39,7 +39,11 @@ USB SPI Converter with MCP2210
 <img src="/img/img1.jpg" width="360">
 <img src="/img/img2.jpeg" width="300">
 
+## 販売サイト
+  * [スイッチサイエンス][5]
+
 [1]: https://www.microchip.com/en-us/product/MCP2210
 [2]: https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2210Utility-v1.2.3-windows-installer.zip
 [3]: https://meerstern.github.io/web_usb_spi.html
 [4]: https://meerstern.github.io/web_spi_flash_tool.html
+[5]: https://ssci.to/9394
